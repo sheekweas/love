@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/love/static/css/main.b6d8b80f.css",
+    "main.js": "/love/static/js/main.f4f1159a.js",
+    "static/media/love and dream.mp3": "/love/static/media/love and dream.5d14515fcf6d05ac617a.mp3",
+    "static/media/bg.png": "/love/static/media/bg.f69be7e1274a8ff9f7e5.png",
+    "static/media/song-image-3.jpg": "/love/static/media/song-image-3.f4b147f223b0616808a3.jpg",
+    "index.html": "/love/index.html",
+    "main.b6d8b80f.css.map": "/love/static/css/main.b6d8b80f.css.map",
+    "main.f4f1159a.js.map": "/love/static/js/main.f4f1159a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6d8b80f.css",
+    "static/js/main.f4f1159a.js"
+  ]
+}
