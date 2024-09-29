@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  padding: 50px;
+  background: #f6bbcf;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+h1 span {
+  color: rgb(213, 62, 62);
+}
+
+.arrow-down {
+  font-size: 2em;
+  margin-top: 10px;
+  animation: bounce 2s infinite;
+  color: rgb(213, 62, 62);
+}
+
+.arrow-down:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .arrow-down {
+    font-size: 1.5em;
+  }
+
+  .header-image {
+    max-width: 150px;
+  }
+}
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}

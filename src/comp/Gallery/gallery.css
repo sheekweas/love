@@ -1,0 +1,12 @@
+.gallery-carousel {
+    display: flex;
+    overflow: scroll;
+}
+
+.gallery-carousel .image-box {
+    width: 300px;
+}
+
+.image-box img {
+    width: 100%;
+}
